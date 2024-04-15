@@ -8,6 +8,7 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         builder.Services.AddControllers();
+        // builder.Services.AddTransient<IAnimalService, AnimalService>();
 
         var app = builder.Build();
 
